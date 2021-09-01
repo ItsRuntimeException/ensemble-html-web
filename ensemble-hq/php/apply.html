@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color: black">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <style type="text/css" id="dark-mode-custom-style"></style>
+            <title>User Registration</title>
+        </head>
+        <!-- Will be adding SQL compatibility later for User Database -->
+        <div align="center" class="register_box">
+            <h1 style="color: rgb(255,255,255);">Register for This Website</h1>
+                <form action="action_page.php" method="POST" role="form">
+                    <!-- FNAME -->
+                    <br>
+                    <input autofocus="true" id="fname" name="fname" placeholder="First name" tabindex="1" type="name">
+                    <!-- LNAME -->
+                    <br>
+                    <input autofocus="true" id="lname" name="lname" placeholder="Last name" tabindex="1" type="name">
+                    <!-- EMAIL_ADDRESS -->
+                    <br>
+                    <input autofocus="true" id="email" name="email" placeholder="Email address" tabindex="1" type="email">
+                    <!-- PASSWORD -->
+                    <br>
+                    <input autocomplete="off" id="password" name="password" placeholder="Password" tabindex="2" type="password">
+                    <!-- REGISTER BOTTON -->
+                    <br>
+                    <br>
+                    <button name="commit" tabindex="3" type="submit" value="Register">Register</button>
+                </form>
+        </div>
+    </body>
+</html>
